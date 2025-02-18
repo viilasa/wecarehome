@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import WhyUs from './components/WhyUs';
 import HowWeWork from './components/HowWeWork';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 import { ThemeProvider } from './context/ThemeContext';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <WhyUs />
         <HowWeWork />
         <Contact />
+        <Footer />
       </div>
     </ThemeProvider>
   );
