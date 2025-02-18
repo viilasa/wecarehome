@@ -41,7 +41,7 @@ export default function Hero() {
   };
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = "919876543210"; // Replace with your actual WhatsApp number
+    const phoneNumber = "+919764294724"; // Replace with your actual WhatsApp number
     const message = "Hi! I'm interested in finding my dream home. Can you help me?";
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
