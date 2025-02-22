@@ -16,6 +16,12 @@ const images = [
   },
   {
     url: "https://res.cloudinary.com/ddhhlkyut/image/upload/v1740244373/6_mswqbl.png?auto=format&fit=crop&q=80",
+    alt: "portuguese Architecture",
+    title: "Portuguese Architecture",
+    subtitle: "Contemporary designs meeting timeless luxury"
+  },
+  {
+    url: "https://res.cloudinary.com/ddhhlkyut/image/upload/v1740244373/6_mswqbl.png?auto=format&fit=crop&q=80",
     alt: "Modern Architecture",
     title: "Modern Elegance",
     subtitle: "Contemporary designs meeting timeless luxury"
