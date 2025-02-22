@@ -1,17 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 export default function Contact() {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Handle form submission
-  };
-
   return (
     <div className="bg-[var(--bg-secondary)] py-16">
       <div className="max-w-7xl mx-auto px-4">
@@ -19,15 +8,27 @@ export default function Contact() {
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
-            <form onSubmit={handleSubmit} className="space-y-8">
+            <form action="https://formsubmit.co/wefindhomesgoa@gmail.com" method="POST" className="space-y-8">
+              {/* Honeypot to prevent spam */}
+              <input type="text" name="_honey" style={{ display: 'none' }} />
+              
+              {/* Disable Captcha */}
+              <input type="hidden" name="_captcha" value="false" />
+              
+              {/* Success page redirect */}
+              <input 
+                type="hidden" 
+                name="_next" 
+                value={window.location.href + "#contact"}
+              />
+
               <div className="relative group">
                 <label htmlFor="name" className="block text-sm font-medium text-[var(--text-primary)] mb-2">Name</label>
                 <input
                   type="text"
                   id="name"
+                  name="name"
                   className="block w-full px-4 py-3 bg-[var(--bg-primary)] text-[var(--text-primary)] border-b-2 border-[var(--text-primary)] focus:border-[var(--text-primary)] transition-colors duration-300 outline-none"
-                  value={formData.name}
-                  onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                   required
                   placeholder="Your name"
                 />
@@ -38,9 +39,8 @@ export default function Contact() {
                 <input
                   type="email"
                   id="email"
+                  name="email"
                   className="block w-full px-4 py-3 bg-[var(--bg-primary)] text-[var(--text-primary)] border-b-2 border-[var(--text-primary)] focus:border-[var(--text-primary)] transition-colors duration-300 outline-none"
-                  value={formData.email}
-                  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                   required
                   placeholder="Your email"
                 />
@@ -50,10 +50,9 @@ export default function Contact() {
                 <label htmlFor="message" className="block text-sm font-medium text-[var(--text-primary)] mb-2">Message</label>
                 <textarea
                   id="message"
+                  name="message"
                   rows={4}
                   className="block w-full px-4 py-3 bg-[var(--bg-primary)] text-[var(--text-primary)] border-2 border-[var(--text-primary)] focus:border-[var(--text-primary)] transition-colors duration-300 outline-none resize-none rounded-none"
-                  value={formData.message}
-                  onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                   required
                   placeholder="Your message"
                 />
