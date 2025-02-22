@@ -15,7 +15,7 @@ const images = [
     subtitle: "Wake up to stunning ocean views and pristine beaches"
   },
   {
-    url: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80",
+    url: "https://res.cloudinary.com/ddhhlkyut/image/upload/v1740244373/6_mswqbl.png?auto=format&fit=crop&q=80",
     alt: "Modern Architecture",
     title: "Modern Elegance",
     subtitle: "Contemporary designs meeting timeless luxury"
