@@ -12,7 +12,7 @@ export default function Footer() {
             <p className="opacity-90">Your trusted partner in finding the perfect home in Goa.</p>
             <div className="flex items-center space-x-2">
               <Phone className="w-4 h-4" />
-              <span>+91 98765 43210</span>
+              <span>+91 98237 91401</span>
             </div>
             <div className="flex items-center space-x-2">
               <Mail className="w-4 h-4" />
