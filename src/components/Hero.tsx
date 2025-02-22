@@ -15,7 +15,7 @@ const images = [
     subtitle: "Wake up to stunning ocean views and pristine beaches"
   },
   {
-    url: "https://res.cloudinary.com/ddhhlkyut/image/upload/v1740244373/6_mswqbl.png?auto=format&fit=crop&q=80",
+    url: "https://res.cloudinary.com/ddhhlkyut/image/upload/v1740244364/7_tcgftq.png?auto=format&fit=crop&q=80",
     alt: "portuguese Architecture",
     title: "Portuguese Architecture",
     subtitle: "Contemporary designs meeting timeless luxury"
