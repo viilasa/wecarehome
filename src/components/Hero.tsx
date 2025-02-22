@@ -3,7 +3,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const images = [
   {
-    url: "https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&q=80",
+    url: "https://res.cloudinary.com/ddhhlkyut/image/upload/v1740241215/1_b898ef.svg",
     alt: "Luxury Villa with Pool",
     title: "Discover Luxury Living",
     subtitle: "Experience the finest properties in Goa's most sought-after locations"
