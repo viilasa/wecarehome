@@ -16,7 +16,7 @@ export default function Footer() {
             </div>
             <div className="flex items-center space-x-2">
               <Mail className="w-4 h-4" />
-              <span>contact@wefindhomes.com</span>
+              <span>wefindhomesgoa@gmail.com</span>
             </div>
           </div>
 
