@@ -71,17 +71,18 @@ export default function Contact() {
           <div className="space-y-8">
             <div className="group p-6 bg-[var(--bg-primary)] border-l-4 border-[var(--text-primary)]">
               <h3 className="font-semibold text-[var(--text-primary)]">Email</h3>
-              <p className="text-[var(--text-primary)] opacity-90">contact@wefindhomes.com</p>
+              <p className="text-[var(--text-primary)] opacity-90">wefindhomesgoa@gmail.com</p>
             </div>
             
             <div className="group p-6 bg-[var(--bg-primary)] border-l-4 border-[var(--text-primary)]">
               <h3 className="font-semibold text-[var(--text-primary)]">Phone</h3>
-              <p className="text-[var(--text-primary)] opacity-90">+91 (555) 123-4567</p>
+              <p className="text-[var(--text-primary)] opacity-90">+91 98237 91401</p>
             </div>
             
             <div className="group p-6 bg-[var(--bg-primary)] border-l-4 border-[var(--text-primary)]">
               <h3 className="font-semibold text-[var(--text-primary)]">Address</h3>
-              <p className="text-[var(--text-primary)] opacity-90">123 Real Estate Ave<br />Goa, India</p>
+              <p className="text-[var(--text-primary)] opacity-90">Address is 
+Office no 14 nagvado betalbatim salcete 403713 <br />South Goa, India</p>
             </div>
           </div>
         </div>
