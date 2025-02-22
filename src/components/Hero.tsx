@@ -9,7 +9,7 @@ const images = [
     subtitle: "Experience the finest properties in Goa's most sought-after locations"
   },
   {
-    url: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&q=80",
+    url: "https://res.cloudinary.com/ddhhlkyut/image/upload/v1740241199/9_q1kwpc.svg",
     alt: "Beachfront Property",
     title: "Beachfront Paradise",
     subtitle: "Wake up to stunning ocean views and pristine beaches"
